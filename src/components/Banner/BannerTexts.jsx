@@ -1,5 +1,6 @@
 import { Box, Button, Heading } from "@chakra-ui/react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BannerTexts = () => {
   return (
@@ -23,14 +24,16 @@ const BannerTexts = () => {
         We present to you an innovative tool that combines the artificial
         intelligence with human emotions.
       </Heading>
-      <Button
-        borderRadius={"3xl"}
-        paddingX={"40px"}
-        backgroundColor={"cyan.500"}
-        marginTop={"115px"}
-      >
-        Try Now
-      </Button>
+      <Link to="/try-youself">
+        <Button
+          borderRadius={"3xl"}
+          paddingX={"40px"}
+          backgroundColor={"cyan.500"}
+          marginTop={"115px"}
+        >
+          Try Now
+        </Button>
+      </Link>
     </Box>
   );
 };

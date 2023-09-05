@@ -1,5 +1,6 @@
 import { Box, Button, Image } from "@chakra-ui/react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeaderUser = () => {
   return (
@@ -38,15 +39,17 @@ const HeaderUser = () => {
         >
           <Image src="./user.png" width={"30px"} />
         </Box>
-        <Button
-          height={"28px"}
-          backgroundColor={"transparent"}
-          border={"1px solid black"}
-          fontSize={"14px"}
-          fontWeight={"normal"}
-        >
-          Login/Sign Up
-        </Button>
+        <Link to="/login">
+          <Button
+            height={"28px"}
+            backgroundColor={"transparent"}
+            border={"1px solid black"}
+            fontSize={"14px"}
+            fontWeight={"normal"}
+          >
+            Login/Sign Up
+          </Button>
+        </Link>
       </Box>
     </Box>
   );

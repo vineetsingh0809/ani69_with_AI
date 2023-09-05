@@ -12,8 +12,8 @@ const Header = () => {
         display={"flex"}
         alignItems={"center"}
         justifyContent={"space-between"}
-        paddingTop={"20px"}
-        paddingBottom={"20px"}
+        paddingTop={"30px"}
+        paddingBottom={"30px"}
       >
         <HeaderMenu />
         <HeaderUser />
