@@ -1,6 +1,7 @@
 import { Box, Button, Heading } from "@chakra-ui/react";
 import React from "react";
 import ExampleServices from "./ExampleServices";
+import { Link } from "react-router-dom";
 
 const ExampleTexts = () => {
   return (
@@ -24,13 +25,15 @@ const ExampleTexts = () => {
         steps{" "}
       </Heading>
       <ExampleServices />
-      <Button
-        borderRadius={"3xl"}
-        paddingX={"40px"}
-        backgroundColor={"cyan.500"}
-      >
-        Try Now
-      </Button>
+      <Link to="/try-youself">
+        <Button
+          borderRadius={"3xl"}
+          paddingX={"40px"}
+          backgroundColor={"cyan.500"}
+        >
+          Try Now
+        </Button>
+      </Link>
     </Box>
   );
 };

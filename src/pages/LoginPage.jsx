@@ -57,7 +57,7 @@ const login = () => {
               paddingY={"24px"}
               backgroundColor={"#4DADAD"}
             >
-              Try Now
+              Sign In
             </Button>
           </Box>
         </Box>
