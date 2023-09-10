@@ -3,7 +3,7 @@ import React from "react";
 import ExampleServices from "./ExampleServices";
 import { Link } from "react-router-dom";
 
-const ExampleTexts = () => {
+const ExampleTexts = ({ btnclick }) => {
   return (
     <Box
       display={"flex"}
@@ -30,6 +30,7 @@ const ExampleTexts = () => {
           borderRadius={"3xl"}
           paddingX={"40px"}
           backgroundColor={"cyan.500"}
+          onClick={btnclick}
         >
           Try Now
         </Button>

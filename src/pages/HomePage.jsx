@@ -7,12 +7,12 @@ import Services from "../components/ServicesComponent/Services";
 import Team from "../components/Team/Team";
 import Footer from "../components/Footer/Footer";
 
-const HomePage = () => {
+const HomePage = (props) => {
   return (
     <Box>
-      <Banner />
+      <Banner btnClick={props.btnClick} />
       <Promotion />
-      <Example />
+      <Example btnclick={props.btnClick} />
       <Services />
       <Team />
       <Footer />

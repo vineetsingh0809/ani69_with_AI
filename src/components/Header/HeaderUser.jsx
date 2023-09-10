@@ -11,7 +11,6 @@ const HeaderUser = () => {
           id="cars"
           style={{
             backgroundColor: "transparent",
-            width: "90px",
             outline: "none",
           }}
         >
@@ -19,6 +18,7 @@ const HeaderUser = () => {
           <option value="Text to Animation">Text to Animation</option>
           <option value="Text to Image">Text to Image</option>
           <option value="Text to Speech">Text to Speech</option>
+          <option value="Text to Speech">Text to Video</option>
         </select>
       </Box>
       <Box
