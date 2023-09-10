@@ -1,8 +1,8 @@
 export const menu_data = [
-  { id: "1", value: "About", redirect_to:"./about" },
-  { id: "2", value: "Contact Us", redirect_to:"./contact" },
-  { id: "3", value: "Blog", redirect_to:"./blog" },
-  { id: "4", value: "Services", redirect_to:"./services" },
+  { id: "1", value: "About", redirect_to: "./about" },
+  { id: "2", value: "Contact Us", redirect_to: "./contact" },
+  { id: "3", value: "Blog", redirect_to: "./blog" },
+  { id: "4", value: "Services", redirect_to: "./services" },
 ];
 
 export const services = [
@@ -38,23 +38,47 @@ export const team_member = [
     imgSrc: "./user1.jpg",
     Name: "Vishwajeet Singh",
     designation: "CHIEF EXECUTIVE OFFICER",
+    icons: [
+      { id: "1", image: "./twitter.png", link: "#" },
+      { id: "2", image: "./linkedin.png", link: "#" },
+      { id: "3", image: "./git.png", link: "#" },
+      { id: "4", image: "./insta.png", link: "#" },
+    ],
   },
   {
     id: "2",
     imgSrc: "./user2.jpg",
     Name: "Vishwajeet Singh",
     designation: "CHIEF EXECUTIVE OFFICER",
+    icons: [
+      { id: "1", image: "./twitter.png", link: "#" },
+      { id: "2", image: "./linkedin.png", link: "#" },
+      { id: "3", image: "./git.png", link: "#" },
+      { id: "4", image: "./insta.png", link: "#" },
+    ],
   },
   {
     id: "3",
     imgSrc: "./user3.jpg",
     Name: "Vishwajeet Singh",
     designation: "CHIEF EXECUTIVE OFFICER",
+    icons: [
+      { id: "1", image: "./twitter.png", link: "#" },
+      { id: "2", image: "./linkedin.png", link: "#" },
+      { id: "3", image: "./git.png", link: "#" },
+      { id: "4", image: "./insta.png", link: "#" },
+    ],
   },
   {
     id: "4",
     imgSrc: "./user4.jpg",
     Name: "Vishwajeet Singh",
     designation: "CHIEF EXECUTIVE OFFICER",
+    icons: [
+      { id: "1", image: "./twitter.png", link: "#" },
+      { id: "2", image: "./linkedin.png", link: "#" },
+      { id: "3", image: "./git.png", link: "#" },
+      { id: "4", image: "./insta.png", link: "#" },
+    ],
   },
 ];
