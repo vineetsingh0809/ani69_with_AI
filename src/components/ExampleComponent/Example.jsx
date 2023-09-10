@@ -2,7 +2,7 @@ import { Box, Image } from "@chakra-ui/react";
 import React from "react";
 import ExampleTexts from "./ExampleTexts";
 
-const Example = () => {
+const Example = ({btnclick}) => {
   return (
     <Box
       width={"100%"}
@@ -16,7 +16,7 @@ const Example = () => {
         justifyContent={"space-between"}
         paddingY={"50px"}
       >
-        <ExampleTexts />
+        <ExampleTexts btnclick={btnclick} />
         <Box>
           <Image src="./Computer.png" />
         </Box>

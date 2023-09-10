@@ -1,7 +1,8 @@
 export const menu_data = [
-  { id: "1", value: "About" },
-  { id: "2", value: "Contact Us" },
-  { id: "3", value: "Blog" },
+  { id: "1", value: "About", redirect_to:"./about" },
+  { id: "2", value: "Contact Us", redirect_to:"./contact" },
+  { id: "3", value: "Blog", redirect_to:"./blog" },
+  { id: "4", value: "Services", redirect_to:"./services" },
 ];
 
 export const services = [

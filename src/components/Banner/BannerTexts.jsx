@@ -2,7 +2,7 @@ import { Box, Button, Heading } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
 
-const BannerTexts = () => {
+const BannerTexts = (props) => {
   return (
     <Box color={"#FEFEFE"}>
       <Heading
@@ -30,6 +30,7 @@ const BannerTexts = () => {
           paddingX={"40px"}
           backgroundColor={"cyan.500"}
           marginTop={"115px"}
+          onClick={props.btnClick}
         >
           Try Now
         </Button>

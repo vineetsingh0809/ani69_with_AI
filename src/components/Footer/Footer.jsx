@@ -94,19 +94,19 @@ function Footer() {
             flex={{ base: "0", md: "0", lg: "2", xl: "2" }}
           >
             <Text fontSize="lg" fontWeight="bold">
-              Products
+              Features
             </Text>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              Angular
+              Text to Animation
             </Link>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              React
+              Text to Image
             </Link>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              Vue
+              Text to Speech
             </Link>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              Laravel
+              Text to Video
             </Link>
           </VStack>
 
@@ -117,19 +117,19 @@ function Footer() {
             flex={{ base: "0", md: "0", lg: "2", xl: "2" }}
           >
             <Text fontSize="lg" fontWeight="bold">
-              Useful Links
+              Company
             </Text>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              Pricing
+              Contact Us
             </Link>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              Settings
+              About
             </Link>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              Orders
+              Blog
             </Link>
             <Link href="#" _hover={{ textDecor: "none" }}>
-              Help
+              Services
             </Link>
           </VStack>
 
