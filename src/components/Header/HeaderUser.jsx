@@ -46,6 +46,12 @@ const HeaderUser = () => {
             border={"1px solid black"}
             fontSize={"14px"}
             fontWeight={"normal"}
+            paddingY={"15px"}
+            _hover={{
+              color: "white",
+              backgroundColor: "#060622",
+              transition: "all 1s ease",
+            }}
           >
             Login/Sign Up
           </Button>

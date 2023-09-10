@@ -20,15 +20,22 @@ const HeaderMenu = () => {
         justifyContent={"space-between"}
       >
         {menu_data.map((item) => (
-          <Link to={item.redirect_to}>
+          <Link to={item.redirect_to} key={item.id}>
             <Heading
               as={"h4"}
-              key={item.id}
-              paddingRight={"30px"}
+              marginRight={"20px"}
+              paddingY={"5px"}
+              paddingX={"15px"}
               fontSize={"16px"}
               fontWeight={"400"}
               lineHeight={"20px"}
               cursor={"pointer"}
+              _hover={{
+                color: "white",
+                transition: "all 1s ease",
+                backgroundColor: "#060622",
+                borderRadius:"5px"
+              }}
             >
               {item.value}
             </Heading>
