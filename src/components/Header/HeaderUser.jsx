@@ -7,11 +7,12 @@ const HeaderUser = () => {
     <Box display={"flex"} alignItems={"center"}>
       <Box>
         <select
-          name="cars"
-          id="cars"
+          name="features"
+          id="features"
           style={{
             backgroundColor: "transparent",
             outline: "none",
+            cursor: "pointer",
           }}
         >
           <option value="disable">Features</option>
@@ -36,6 +37,7 @@ const HeaderUser = () => {
           display={"flex"}
           alignItems={"center"}
           justifyContent={"center"}
+          cursor={"pointer"}
         >
           <Image src="./user.png" width={"30px"} />
         </Box>
