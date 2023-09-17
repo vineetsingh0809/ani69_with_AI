@@ -57,7 +57,9 @@ const Team = () => {
                     justifyContent={"space-between"}
                   >
                     {item.icons.map((data) => (
-                      <Image key={data.image} src={data.image} />
+                      <a href={data.link}>
+                        <Image key={data.image} src={data.image} />
+                      </a>
                     ))}
                   </Box>
                 )}
