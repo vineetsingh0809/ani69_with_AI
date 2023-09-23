@@ -4,7 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import TryNow from "./pages/TryNow";
-import AboutPage from "./pages/AboutPage";
+import AboutPage from "./pages/About/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Services from "./pages/Services";
 import BlogPage from "./pages/BlogPage";

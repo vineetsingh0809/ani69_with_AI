@@ -7,6 +7,8 @@ const customTheme = extendTheme({
   fonts: {
     body: "Inter, sans-serif",
     heading: "Inter, sans-serif",
+    lato: "Lato, sans-serif",
+    sourceSerif: "Source Serif, serif",
   },
 });
 
