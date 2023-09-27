@@ -82,3 +82,46 @@ export const team_member = [
     ],
   },
 ];
+
+export const blog_data = [
+  {
+    id: "1",
+    imgSrc: "./alien.png",
+    title: "Article name- headline for an article",
+  },
+  {
+    id: "2",
+    imgSrc: "./fingerprint.png",
+    title: "Article name- headline for an article",
+  },
+  {
+    id: "3",
+    imgSrc: "./spark.png",
+    title: "Article name- headline for an article",
+  },
+  {
+    id: "4",
+    imgSrc: "./ai.png",
+    title: "Article name- headline for an article",
+  },
+  {
+    id: "5",
+    imgSrc: "./ai.png",
+    title: "Article name- headline for an article",
+  },
+  {
+    id: "6",
+    imgSrc: "./spark.png",
+    title: "Article name- headline for an article",
+  },
+  {
+    id: "7",
+    imgSrc: "./fingerprint.png",
+    title: "Article name- headline for an article",
+  },
+  {
+    id: "8",
+    imgSrc: "./alien.png",
+    title: "Article name- headline for an article",
+  },
+];
