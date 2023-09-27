@@ -7,7 +7,7 @@ import TryNow from "./pages/TryNow";
 import AboutPage from "./pages/About/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Services from "./pages/Services";
-import BlogPage from "./pages/BlogPage";
+import BlogPage from "./pages/Blog/BlogPage";
 import { useState } from "react";
 
 const App = () => {
