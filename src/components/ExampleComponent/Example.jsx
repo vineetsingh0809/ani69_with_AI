@@ -16,7 +16,7 @@ const Example = ({btnclick}) => {
         justifyContent={"space-between"}
         paddingY={"50px"}
       >
-        <ExampleTexts btnclick={btnclick} />
+        <ExampleTexts btnclick={btnclick} display={"block"} paddingBottom={"100px"} />
         <Box>
           <Image src="./Computer.png" />
         </Box>

@@ -3,7 +3,7 @@ import React from "react";
 import ExampleServices from "./ExampleServices";
 import { Link } from "react-router-dom";
 
-const ExampleTexts = ({ btnclick }) => {
+const ExampleTexts = ({ btnclick, display, paddingBottom }) => {
   return (
     <Box
       display={"flex"}
@@ -24,13 +24,14 @@ const ExampleTexts = ({ btnclick }) => {
         <span style={{ color: "#EB41B1" }}>Animation</span> <br /> in just 3
         steps{" "}
       </Heading>
-      <ExampleServices />
+      <ExampleServices paddingBottom={paddingBottom} />
       <Link to="/try-youself">
         <Button
           borderRadius={"3xl"}
           paddingX={"40px"}
           backgroundColor={"cyan.500"}
           onClick={btnclick}
+          display={display}
         >
           Try Now
         </Button>

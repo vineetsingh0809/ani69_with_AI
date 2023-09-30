@@ -125,3 +125,42 @@ export const blog_data = [
     title: "Article name- headline for an article",
   },
 ];
+
+export const new_services = [
+  {
+    id: "1",
+    img: "./Rectangle 137.png",
+    title: "Create Own Characters",
+    subTitle: "You can create your own customized Animated characters",
+  },
+  {
+    id: "2",
+    img: "./animation.png",
+    title: "Text to Animation",
+    subTitle: "You can make your own animations at your fingertips",
+  },
+  {
+    id: "3",
+    img: "./Rectangle 6.png",
+    title: "Text to AI image",
+    subTitle: "You can easily Generate AI powered images",
+  },
+  {
+    id: "4",
+    img: "./Rectangle 137.png",
+    title: "Create Own Characters",
+    subTitle: "You can create your own customized Animated characters",
+  },
+  {
+    id: "5",
+    img: "./animation.png",
+    title: "Text to Animation",
+    subTitle: "You can make your own animations at your fingertips",
+  },
+  {
+    id: "6",
+    img: "./Rectangle 6.png",
+    title: "Text to AI image",
+    subTitle: "You can easily Generate AI powered images",
+  },
+];
