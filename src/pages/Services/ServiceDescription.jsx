@@ -3,14 +3,19 @@ import React from "react";
 
 const ServiceDescription = () => {
   return (
-    <Box width={"75%"} margin={"auto"} paddingTop={"60px"}>
+    <Box
+      width={"75%"}
+      margin={"auto"}
+      paddingTop={"60px"}
+      paddingBottom={"100px"}
+    >
       <Heading
         color={"#ffffff"}
         fontSize={"60px"}
         lineHeight={"90px"}
         fontFamily={"body"}
         fontWeight={"800"}
-        paddingBottom={"10px"}
+        paddingBottom={"40px"}
       >
         Services
       </Heading>

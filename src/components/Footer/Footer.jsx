@@ -33,7 +33,7 @@ function Footer() {
         >
           <Text fontSize="lg">Get connected with us on social networks:</Text>
           <Box
-            width={"25%"}
+            width={"20%"}
             display={"flex"}
             alignItems={"center"}
             justifyContent={"space-between"}
