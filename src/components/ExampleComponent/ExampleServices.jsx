@@ -2,7 +2,7 @@ import React from "react";
 import { services } from "../../data";
 import { Box, Heading, Image } from "@chakra-ui/react";
 
-const ExampleServices = () => {
+const ExampleServices = ({paddingBottom}) => {
   return (
     <Box
       display={"flex"}
@@ -10,7 +10,7 @@ const ExampleServices = () => {
       justifyContent={"space-between"}
       color={"#D9D9D9"}
       paddingTop={"50px"}
-      paddingBottom={"100px"}
+      paddingBottom={paddingBottom}
     >
       {services.map((item) => (
         <Box
